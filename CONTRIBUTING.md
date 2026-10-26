@@ -17,6 +17,9 @@ Contributions are welcome: bug reports, support for other Nitro/Predator models,
 
 By contributing you agree that your work is licensed under GPL-2.0-or-later.
 
+Architecture, conventions and step-by-step recipes (also for AI coding agents) are in
+[AGENTS.md](AGENTS.md); planned work is in [ROADMAP.md](ROADMAP.md).
+
 ## Español
 
 Las contribuciones son bienvenidas: informes de errores, soporte para otros modelos Nitro/Predator,
@@ -34,3 +37,6 @@ correcciones y documentación.
 - Prueba en hardware real cuando puedas e indica modelo y versión de BIOS.
 
 Al contribuir aceptas que tu trabajo se licencia bajo GPL-2.0-or-later.
+
+La arquitectura, las convenciones y las recetas paso a paso (también para agentes de IA) están
+en [AGENTS.md](AGENTS.md); el trabajo previsto está en [ROADMAP.md](ROADMAP.md).
