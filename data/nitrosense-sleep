@@ -1,0 +1,5 @@
+#!/bin/sh
+# systemd-sleep hook: the EC drops custom fan speeds and lighting on resume.
+case "$1" in
+    post) /usr/bin/nitrosense-ctl restore || true ;;
+esac

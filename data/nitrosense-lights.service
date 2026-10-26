@@ -1,0 +1,14 @@
+[Unit]
+Description=NitroSense dynamic keyboard lighting
+# Enabled and started by `nitrosense-ctl light <mode>`; `nitrosense-ctl light off` disables it.
+ConditionPathExists=/sys/bus/wmi/devices/7A4DDFE7-5B5D-40B4-8595-4408E0CC7F56
+
+[Service]
+ExecStart=/usr/bin/nitrosense-ctl light run
+ExecReload=/bin/kill -HUP $MAINPID
+Restart=on-failure
+RestartSec=3
+Nice=10
+
+[Install]
+WantedBy=default.target

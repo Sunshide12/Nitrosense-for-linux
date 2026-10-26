@@ -1,0 +1,6 @@
+# Let members of the "nitrosense" group use the NitroSense controls without root.
+ACTION=="add|bind", SUBSYSTEM=="wmi", DRIVER=="nitrosense|nitrosense-generic", RUN+="/usr/libexec/nitrosense/fix-permissions /sys%p"
+ACTION=="add", SUBSYSTEM=="hwmon", ATTR{name}=="nitrosense", RUN+="/usr/libexec/nitrosense/fix-permissions /sys%p"
+
+# Re-apply the saved settings once the driver is up (boot or module reload).
+ACTION=="add", SUBSYSTEM=="hwmon", ATTR{name}=="nitrosense", TAG+="systemd", ENV{SYSTEMD_WANTS}+="nitrosense-restore.service"

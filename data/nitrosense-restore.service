@@ -1,0 +1,8 @@
+[Unit]
+Description=Restore NitroSense fan, mode and keyboard settings
+# Started by udev (70-nitrosense.rules) as soon as the driver's hwmon device appears
+ConditionPathExists=/var/lib/nitrosense/state.json
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/nitrosense-ctl restore

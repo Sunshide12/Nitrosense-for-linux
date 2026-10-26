@@ -1,0 +1,12 @@
+#!/bin/sh
+# Called by udev: make the writable NitroSense attributes group-writable.
+dir="$1"
+[ -d "$dir" ] || exit 0
+for attr in operating_mode kb_backlight kb_zone1 kb_zone2 kb_zone3 kb_zone4 \
+            win_key lcd_overdrive coolboost kb_timeout \
+            pwm1 pwm1_enable pwm2 pwm2_enable; do
+    if [ -f "$dir/$attr" ]; then
+        chgrp nitrosense "$dir/$attr" && chmod g+w "$dir/$attr"
+    fi
+done
+exit 0

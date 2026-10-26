@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=NitroSense
+GenericName=Control del portátil Acer Nitro
+Comment=Ventiladores, modos de funcionamiento y teclado RGB
+Exec=nitrosense
+Icon=io.github.nitrosense.Linux
+Terminal=false
+Categories=System;Settings;HardwareSettings;
+Keywords=acer;nitro;fan;ventilador;rgb;keyboard;teclado;coolboost;
+StartupNotify=true
