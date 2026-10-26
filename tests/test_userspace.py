@@ -1,3 +1,5 @@
+# SPDX-FileCopyrightText: 2026 Steban Martínez Gutiérrez (Sunshide.com)
+# SPDX-License-Identifier: GPL-2.0-or-later
 """Tests for the Python side (hw backend, persistent state, CLI) on a fake sysfs.
 
 Run: python3 -m unittest discover -s tests -v

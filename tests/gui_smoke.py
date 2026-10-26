@@ -1,3 +1,5 @@
+# SPDX-FileCopyrightText: 2026 Steban Martínez Gutiérrez (Sunshide.com)
+# SPDX-License-Identifier: GPL-2.0-or-later
 """GUI smoke test: start the app on a fake sysfs and save a PNG of every page.
 
 usage: python3 tests/gui_smoke.py <output dir>   (needs a Wayland/X display)

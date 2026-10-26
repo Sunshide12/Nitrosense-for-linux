@@ -1,3 +1,5 @@
+# SPDX-FileCopyrightText: 2026 Steban Martínez Gutiérrez (Sunshide.com)
+# SPDX-License-Identifier: GPL-2.0-or-later
 """Persistent settings, the Linux counterpart of HKLM\\SOFTWARE\\OEM\\NitroSense.
 
 The firmware forgets fan and keyboard settings on some power transitions and

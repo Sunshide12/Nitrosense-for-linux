@@ -1,3 +1,5 @@
+// SPDX-FileCopyrightText: 2026 Steban Martínez Gutiérrez (Sunshide.com)
+// SPDX-License-Identifier: GPL-2.0-or-later
 // Minimal reflection-only IL disassembler: ildump.exe <assembly> <outfile> [probe dirs...]
 using System;
 using System.Collections.Generic;

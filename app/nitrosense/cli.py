@@ -1,3 +1,5 @@
+# SPDX-FileCopyrightText: 2026 Steban Martínez Gutiérrez (Sunshide.com)
+# SPDX-License-Identifier: GPL-2.0-or-later
 """nitrosense-ctl: command line control of the Acer Nitro gaming features."""
 
 from __future__ import annotations

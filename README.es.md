@@ -92,4 +92,16 @@ El protocolo está documentado en [PROTOCOL.md](PROTOCOL.md) y las herramientas 
 
 ## Licencia
 
-[GPL-2.0-or-later](LICENSE). Proyecto independiente, sin relación con Acer.
+Copyright (C) 2026 Steban Martínez Gutiérrez (Sunshide.com). Software libre bajo la
+[GNU GPL v2 o posterior](LICENSE) (`GPL-2.0-or-later`): puedes usarlo, estudiarlo, modificarlo
+y compartirlo; si lo distribuyes (modificado o no) debes mantener los avisos de copyright y la
+licencia, y publicar tus cambios bajo la misma licencia.
+
+**Aviso sobre el hardware:** este software escribe en el firmware de tu portátil (ventiladores,
+modos de rendimiento). No ofrece garantía alguna, como indica la licencia; úsalo bajo tu
+responsabilidad.
+
+NitroSense es una marca de Acer Inc. Este es un proyecto independiente, sin afiliación,
+respaldo ni patrocinio de Acer.
+
+Las contribuciones son bienvenidas, consulta [CONTRIBUTING.md](CONTRIBUTING.md).

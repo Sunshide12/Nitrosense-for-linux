@@ -1,3 +1,5 @@
+# SPDX-FileCopyrightText: 2026 Steban Martínez Gutiérrez (Sunshide.com)
+# SPDX-License-Identifier: GPL-2.0-or-later
 """Dynamic keyboard lighting: the animation loop and its systemd user service.
 
 `nitrosense-ctl light run` is the loop (started by nitrosense-lights.service). The CLI and

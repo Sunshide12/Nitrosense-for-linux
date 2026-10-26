@@ -1,3 +1,5 @@
+# SPDX-FileCopyrightText: 2026 Steban Martínez Gutiérrez (Sunshide.com)
+# SPDX-License-Identifier: GPL-2.0-or-later
 """Build acer-sim.asl: an SSDT that emulates the AN515-57 gaming WMI firmware.
 
 The WMBH, WMAA and GGSI methods are copied verbatim from the machine's real

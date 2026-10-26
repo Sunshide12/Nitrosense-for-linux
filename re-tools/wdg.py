@@ -1,3 +1,5 @@
+# SPDX-FileCopyrightText: 2026 Steban Martínez Gutiérrez (Sunshide.com)
+# SPDX-License-Identifier: GPL-2.0-or-later
 """Decode every _WDG buffer found in decompiled ACPI .dsl files (python wdg.py file.dsl ...)."""
 import re
 import sys

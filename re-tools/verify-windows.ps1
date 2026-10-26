@@ -1,3 +1,5 @@
+# SPDX-FileCopyrightText: 2026 Steban Martínez Gutiérrez (Sunshide.com)
+# SPDX-License-Identifier: GPL-2.0-or-later
 # Read-only check of the reverse-engineered protocol on Windows (run as Administrator).
 # Calls only Get* WMI methods, the same ones the Linux driver uses, and decodes them
 # the same way, so the output can be compared with what NitroSense shows.

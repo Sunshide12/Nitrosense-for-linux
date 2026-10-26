@@ -1,3 +1,5 @@
+# SPDX-FileCopyrightText: 2026 Steban Martínez Gutiérrez (Sunshide.com)
+# SPDX-License-Identifier: GPL-2.0-or-later
 """Software-animated keyboard lighting.
 
 The firmware only offers six fixed effects, so these "dynamic modes" paint the four

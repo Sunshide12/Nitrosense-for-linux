@@ -1,4 +1,6 @@
 #!/bin/busybox sh
+# SPDX-FileCopyrightText: 2026 Steban Martínez Gutiérrez (Sunshide.com)
+# SPDX-License-Identifier: GPL-2.0-or-later
 # PID 1 of the test VM: load the driver against the emulated firmware and check it.
 /bin/busybox --install -s /bin
 mkdir -p /proc /sys /dev

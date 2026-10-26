@@ -1,3 +1,5 @@
+# SPDX-FileCopyrightText: 2026 Steban Martínez Gutiérrez (Sunshide.com)
+# SPDX-License-Identifier: GPL-2.0-or-later
 # Let members of the "nitrosense" group use the NitroSense controls without root.
 ACTION=="add|bind", SUBSYSTEM=="wmi", DRIVER=="nitrosense|nitrosense-generic", RUN+="/usr/libexec/nitrosense/fix-permissions /sys%p"
 ACTION=="add", SUBSYSTEM=="hwmon", ATTR{name}=="nitrosense", RUN+="/usr/libexec/nitrosense/fix-permissions /sys%p"

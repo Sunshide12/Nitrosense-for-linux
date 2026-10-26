@@ -1,4 +1,6 @@
 #!/bin/sh
+# SPDX-FileCopyrightText: 2026 Steban Martínez Gutiérrez (Sunshide.com)
+# SPDX-License-Identifier: GPL-2.0-or-later
 # systemd-sleep hook: the EC drops custom fan speeds and lighting on resume.
 case "$1" in
     post) /usr/bin/nitrosense-ctl restore || true ;;

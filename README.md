@@ -94,4 +94,15 @@ The protocol is documented in [PROTOCOL.md](PROTOCOL.md) and the tools used are 
 
 ## License
 
-[GPL-2.0-or-later](LICENSE). Independent project, not affiliated with Acer.
+Copyright (C) 2026 Steban Martínez Gutiérrez (Sunshide.com). Free software under the
+[GNU GPL v2 or later](LICENSE) (`GPL-2.0-or-later`): you may use, study, modify and share it,
+and if you distribute it (modified or not) you must keep the copyright notices and license, and
+publish your changes under the same license.
+
+**Hardware warning:** this software writes to your laptop's firmware (fans, performance modes).
+It comes with no warranty, as stated in the license; use it at your own risk.
+
+NitroSense is a trademark of Acer Inc. This is an independent project, not affiliated with,
+endorsed by or sponsored by Acer.
+
+Contributions are welcome, see [CONTRIBUTING.md](CONTRIBUTING.md).

@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# SPDX-FileCopyrightText: 2026 Steban Martínez Gutiérrez (Sunshide.com)
+# SPDX-License-Identifier: GPL-2.0-or-later
 # Runs inside a Fedora container: installs the same packages as install.sh, builds
 # the module with DKMS against Fedora's kernel-devel and runs the Python tests.
 #

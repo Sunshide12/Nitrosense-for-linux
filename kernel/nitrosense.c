@@ -1,5 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 /*
+ * Copyright (C) 2026 Steban Martínez Gutiérrez (Sunshide.com)
+ *
  * nitrosense.c - Acer Nitro gaming WMI driver (fans, operating mode, RGB keyboard)
  *
  * Linux port of the hardware layer of Acer NitroSense 3.1 for the Nitro 5
@@ -859,7 +861,7 @@ static void __exit ns_exit(void)
 module_init(ns_init);
 module_exit(ns_exit);
 
-MODULE_AUTHOR("NitroSense Linux contributors");
+MODULE_AUTHOR("Steban Martínez Gutiérrez (Sunshide.com)");
 MODULE_DESCRIPTION("Acer Nitro gaming WMI driver (NitroSense for Linux)");
 MODULE_LICENSE("GPL");
 MODULE_VERSION("1.0.0");

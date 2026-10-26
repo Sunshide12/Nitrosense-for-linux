@@ -1,3 +1,5 @@
+# SPDX-FileCopyrightText: 2026 Steban Martínez Gutiérrez (Sunshide.com)
+# SPDX-License-Identifier: GPL-2.0-or-later
 """NitroSense for Linux: GTK4 / libadwaita interface."""
 
 from __future__ import annotations
@@ -671,9 +673,15 @@ class NitroSenseApp(Adw.Application):
             application_name="NitroSense para Linux",
             application_icon=APP_ID,
             version=__version__,
-            developer_name="Port de Acer NitroSense 3.1",
+            developer_name="Steban Martínez Gutiérrez (Sunshide.com)",
+            developers=["Steban Martínez Gutiérrez (Sunshide.com)"],
+            copyright="© 2026 Steban Martínez Gutiérrez (Sunshide.com)",
+            website="https://github.com/Sunshide12/Nitrosense-for-linux",
+            issue_url="https://github.com/Sunshide12/Nitrosense-for-linux/issues",
             comments="Control de ventiladores, modos de funcionamiento y teclado RGB para "
-                     "portátiles Acer Nitro, a partir de la ingeniería inversa de NitroSense.",
+                     "portátiles Acer Nitro, a partir de la ingeniería inversa de NitroSense.\n\n"
+                     "Proyecto independiente, sin relación con Acer. NitroSense es una marca "
+                     "de Acer Inc.",
             license_type=Gtk.License.GPL_2_0,
         )
         about.present(self.window)
